@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f56e550a8d4761b0687a817b2ba95a, type: 3}
+  m_Name: BoardLibrary
+  m_EditorClassIdentifier: 
+  smilingFace: {fileID: 21300000, guid: de70c4285ecd84a25aa9b77fcb03422c, type: 3}
+  coolFace: {fileID: 21300000, guid: 9b541d07b1ac346bda21fbb4a6b228f9, type: 3}
+  sadFace: {fileID: 21300000, guid: 1ef8a6fa4423949fab758d042d0ffb3b, type: 3}
+  unknownTile: {fileID: 11400000, guid: 160fd83f5529c4288903b1c14d1afeb4, type: 2}
+  emptyTile: {fileID: 11400000, guid: 3eb7616904dab442d8b55ab6b0deac1b, type: 2}
+  mineTile: {fileID: 11400000, guid: 2484abd83ffac49388978dd9aebcd08d, type: 2}
+  explodedTile: {fileID: 11400000, guid: ba4bd680e6b434103a212c1fda5ca783, type: 2}
+  flagTile: {fileID: 11400000, guid: b662bb7678a1a48e984f133157e6dae0, type: 2}
+  numeratedTiles:
+  - Tile: {fileID: 11400000, guid: a8b43f55450dc4166a2c2e32075095b6, type: 2}
+    Number: 1
+  - Tile: {fileID: 11400000, guid: 63efc0cf99d754610a3b58d8231baa9a, type: 2}
+    Number: 2
+  - Tile: {fileID: 11400000, guid: c4e8c2cf12de64c5fae21199c0288d87, type: 2}
+    Number: 3
+  - Tile: {fileID: 11400000, guid: 3b7dac8a031e74a88a160efa142605b1, type: 2}
+    Number: 4
+  - Tile: {fileID: 11400000, guid: 337a0abd51c484d7b98954eb6d909703, type: 2}
+    Number: 5
+  - Tile: {fileID: 11400000, guid: 175f78b041399475a9fc9e2a79af8515, type: 2}
+    Number: 6
+  - Tile: {fileID: 11400000, guid: 2d460496cab7b478fa77af9771ca860b, type: 2}
+    Number: 7
+  - Tile: {fileID: 11400000, guid: 6b1ea6ef5a10a48d4a77afcbca1051e5, type: 2}
+    Number: 8

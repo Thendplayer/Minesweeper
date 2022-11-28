@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24632f645b664f599de60602f1892b27, type: 3}
+  m_Name: GameLibrary
+  m_EditorClassIdentifier: 
+  levels:
+  - Id: Easy
+    Size: {x: 4, y: 6}
+    MineCount: 4
+    CameraSize: 5
+  - Id: Intermediate
+    Size: {x: 6, y: 12}
+    MineCount: 12
+    CameraSize: 7.5
+  - Id: Hard
+    Size: {x: 8, y: 16}
+    MineCount: 24
+    CameraSize: 10
