@@ -1,6 +1,6 @@
 using UnityEngine;
 using Minesweeper.Board;
-using Minesweeper.Utils;
+using Minesweeper.Input;
 using Minesweeper.Libraries;
 
 namespace Minesweeper

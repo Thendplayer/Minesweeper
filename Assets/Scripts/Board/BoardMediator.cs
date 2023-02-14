@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using UnityEngine;
-using Minesweeper.Utils;
+using Minesweeper.Input;
 
 namespace Minesweeper.Board
 {
@@ -23,10 +23,12 @@ namespace Minesweeper.Board
             Task.Delay(200).ContinueWith(t => SubscribeEvents());
         }
 
-        private void SubscribeEvents()
-        {
-            TouchEventHandler.OnPrimaryTouchDetectedEvent += Reveal;
-            TouchEventHandler.OnSecondaryTouchDetectedEvent += Flag;
+        private void SubscribeEvents() {
+            TouchEventHandler.OnTouchDetectedEvent += (id, position) => 
+            {
+                if (id == 0) Reveal(position);
+                if (id == 1) Flag(position);
+            };
         }
         
         private void DrawAllCells()
